@@ -1,3 +1,5 @@
+#![recursion_limit = "256"]
+
 use std::collections::HashMap;
 #[derive(Debug, PartialEq, Clone)]
 pub enum Json {
